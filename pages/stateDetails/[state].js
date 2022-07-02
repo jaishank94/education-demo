@@ -9,7 +9,6 @@ import {
   ResponsiveContainer,
   Label,
 } from "recharts";
-import { schools, city, courses, state } from "../../data";
 import DataTable from "react-data-table-component";
 
 export async function getServerSideProps(context) {

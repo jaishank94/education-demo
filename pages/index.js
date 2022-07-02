@@ -9,7 +9,6 @@ import {
   ResponsiveContainer,
   Label,
 } from "recharts";
-import { schools, city, courses, state } from "../data";
 
 export async function getServerSideProps() {
   const res = await fetch("http://localhost:8080/schools/overview");
